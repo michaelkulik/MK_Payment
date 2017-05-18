@@ -53,7 +53,7 @@
     </adminhtml>
     <default>
         <payment>
-            <free>
+            <mkpayment>
                 <active>1</active>
                 <model>mkpayment/method</model><!--method - название модели(самого файла)-->
                 <order_status>pending</order_status>
@@ -61,7 +61,7 @@
                 <allowspecific>0</allowspecific>
                 <sort_order>1</sort_order>
                 <group>offline</group>
-            </free>
+            </mkpayment>
         </payment>
     </default>
 </config>
